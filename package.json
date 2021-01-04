@@ -1,0 +1,33 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariko-401-AdvancedJs/serverless-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariko-401-AdvancedJs/serverless-api/issues"
+  },
+  "homepage": "https://github.com/Mariko-401-AdvancedJs/serverless-api#readme",
+  "dependencies": {
+    "@shelf/jest-dynamodb": "^1.7.0",
+    "dynamoose": "^2.5.0",
+    "jest": "^26.6.3",
+    "superagent": "^6.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.1.0"
+  }
+}
